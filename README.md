@@ -10,11 +10,11 @@ This project analysed a dataset containing Airbnb listings in the Northern Beach
 
 - Mapped GPS coordinates into postcodes using geo-location API to generate a new feature representing district area, 
 - Calculated distance from each Airbnb listing to 10 popular tourist attractions. 
-- Trained a Generalised Additive Model using Ridge regression with natural cubic splines on these distances to preidct the rental price. Westfield Shopping Center and Manly Beach have the highest feature imporance.
+- Trained a XGBoost model on these distances to preidct the rental price and Westfield Shopping Center and Manly Beach have the highest feature imporance.
 
 •	Model Selection
 
-- Trained gradient boosting trees, extremely randomised trees, Lasso, OLS and Ridge with additive boosting. 
-- Combined models using stacking to improve their predictive accuracy. Gradient boosted Ridge model achieved the best RMSE of 57.5.
+- Trained XGBoost, Extremely Randomised Trees, Lasso, OLS and Ridge models. 
+- Combined the best models using stacking to improve their predictive accuracy. Gradient boosted Ridge model achieved the best RMSE of 57.5.
 
 
