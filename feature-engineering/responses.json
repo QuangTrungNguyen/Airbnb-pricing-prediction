@@ -1,0 +1,24 @@
+{
+    "type": "streetAddressRecord",
+    "result": {
+        "buildingName": null,
+        "numberFirst": 68,
+        "numberFirstPrefix": null,
+        "numberFirstSuffix": null,
+        "numberLast": null,
+        "numberLastPrefix": null,
+        "numberLastSuffix": null,
+        "streetName": "WEST",
+        "streetType": "ESPLANADE",
+        "streetSuffixCode": null,
+        "suburb": "MANLY",
+        "state": "NSW",
+        "postCode": "2095",
+        "location": {
+            "lat": -33.79859835,
+            "lon": 151.2839689
+        },
+        "streetAddress": "68 WEST ESPLANADE, MANLY NSW 2095"
+    },
+    "distanceInMetres": 34.910159484969185
+}
