@@ -38,7 +38,7 @@ def wrapper_feature_selector(X,Y,model,subset=np.arange(0,22).tolist()):
             if len(features) > 1:
                 new_error = train_model(X[:,features],Y,model)
             else:
-                new_error = train_model(X[:,features[0]].reshape(-1,1),Y,model)
+                new_error = train_model(X[:,features[0]].reshape(-1,1), Y, model)
             if new_error < cand_error:
                 selected_candidate = cand
                 cand_error = new_error
